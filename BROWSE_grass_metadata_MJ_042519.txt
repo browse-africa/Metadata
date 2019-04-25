@@ -1,0 +1,126 @@
+Data set: 
+Title: BROWSE Grass Biomass Data
+Description: Data on grass biomass from vegetation surveys conducted in Kruger National Park and eSwatini as part of the BROWSE project monitoring terrestrial vertebrates and vegetation in the park.
+
+Dataset owner:
+BROWSE (Biodiversity Research on Wildlife & Savanna Ecosystems)
+
+Keywords:
+Grass
+Kruger National Park
+eSwatini
+Savanna
+Biodiversity
+Survey
+
+Geographic coverage:
+Kruger National Park, South Africa
+Bounding Coordinates:
+West: 31.90840082
+East: 31.96134629
+North: -25.21326036
+South: -25.26291434
+
+Lubombo Conservancy, eSwatini
+
+Temporal coverage:
+Begin: 2013
+End: 2018
+Sampling season: May—June
+
+Subproject description:
+Site description: 
+A. Southeastern Kruger National Park, South Africa; savanna; nutrient-rich basaltic soils (Nhlowa Southern Basalt Supersite); 610 mm average annual rainfall
+B. eSwatini: Lubombo Conservancy (Hlane Royal National Park, Mlawlula Nature Reserve, and Mbuluzi Game Reserve)
+
+Sampling design: Between 2013 and 2018, surveys were conducted on four 30.25 ha grids at least 1 km from each other in the Nhlowa Southern Basalt Supersite in Kruger National Park and on six grids in the Lubombo Conservancy in eSwatini (two in Hlane, two in Mlawlula Nature Reserve, and two in Mbuluzi Game Reserve). Within each grid, there are nine 50 m x 50 m plots placed 250 m apart in three rows and three columns. 
+
+After 2018, two grids in the Lubombo conservancy and five grids in Kruger are surveyed. These grids each have five plots within them. 
+In Kruger, we have implemented an experimental array of fence treetments. Three of the grids have treatments (G1, G2, G4) and two of the grids are controls (G3, G5) with no treatments. Each treatment grid has 5 plots within it: one plot is a full exclosure fence, two plots are partial exclosure fences, one plot is a “fence effect” and one plot is a control. The full exclosure fully exlcludes all land based locomotive animals. The partial fences exclude elephants and giraffes. The ‘fence effect’ plot excludes nothing but has poles with perching habitat to mimic the habitat the full and partial exclosures provide for birds of prey and the presence of poles. The sampling grids (30.25 ha) have been placed at least 1 Km apart. Grid locations were selected to represent the heterogeneity in vegetation in vegetation structure present within the sampling region. Each grid consists of 5, 50 m x 50 m plots spaced 250 m apart such that four plots are centered at the corners and one plot in the centre of the grid (Fig. 1A). Also, grids with experimental manipulation contain five plots with four plots centered at each corner and one plot in the center of the grid; here each grid has one plot designated as a full exclosure treatment (fencing prevents all large herbivores), two plots as partial exclosure treatments (fencing prevents mega-herbivores) and one plot as a mimic treatment (only fencing poles constructed to simulate treatments) and the last plot is the control.
+Methods: Surveys are conducted annually between May and June. Within each plot, three 50 m transects are laid out and marked “A”, “B” and “C” (for center line), creating an “A” side of the plot and a “B” side of the plot. Every 5 m along each transect line “A” and “B,” grass biomass will be measured using a Disc Pasture Meter (DPM) in an area where there is only grass/herbaceous material. The DPM is used by screwing the hollow pole into the disc and sliding the rod through the pole, then sliding the pole and disc up to the top of the rod, and finally dropping the disc. The reading (cm) will be taken where the hollow pole sits along the rod. To calculate grass biomass in kg/ha the recorded value in cm will be plugged into one of the following two equations depending on whether the mean DPM height at a site was < or = 26cm or >26cm:
+If x is < or = 26cm then:
+kg ha–1 = [31.7176 (0.32181/x) x0.2834]2 (r = 0.979; r2 = 0.951; P < 0.0005)
+
+If x is > 26 cm then:
+kg ha–1 = [17.3543 (0.9893x) x0.5413]2 (r = 0.948; r2 = 0.882; P < 0.0005)
+where x is the mean DPM height in cm of a site.
+
+Project personnel: 
+Principal investigator(s):
+Dr. Robert McCleery 
+University of Florida
+Associate Professor
+Dept. of Wildlife Ecology and Conservation
+Gainesville, FL 32611 USA
+ramccleery@ufl.edu
+
+Dr. Laurence Kruger
+Organization for Tropical Studies
+laurence.kruger@tropicalstudies.org
+
+Dr. Ara Monadjem 
+University of Eswatini
+
+Dr. Robert Fletcher
+University of Florida
+robert.fletcher@ufl.edu
+
+Technicians:
+
+Students:
+
+Other:
+
+Data set status:
+Latest update: 2019-XX-XX
+
+Metadata update: 2019-04-24
+
+Data accessibility:
+Storage location and medium: UF Dropbox folder: BROWSE DATA
+
+Proprietary restrictions: Permission from BROWSE required for any use of all or portions of data set
+
+Contact person(s): 
+Maggie Jones
+218 Newins-Ziegler Hall
+University of Florida
+Gainesville, FL 32611 USA
+(304) 844-1325
+jones.m@ufl.edu
+
+Data set file:
+Identity: XX.csv
+
+Size: XX
+
+Column Headings:
+1. location: broad geographic location (K = Kruger National Park; S = eSwatini)
+2. date: date of data collection (dd-MMM-yyyy)
+3. season: season and year in which the data was collected (mjYY = May-June 20YY; ndYY = November-December 20YY)
+4. grid: the number of the grid (integer)
+5. plot: the number of the plot within the grid (integer)
+6. side: the side of the plot the transect is on (A or B)
+7. distance: 10 m section along the transect (m, in increments of 5 m)
+8. grass: reading on the disc pasture meter (cm)
+9. over_26: whether or not the mean DPM reading at a site is > 26 cm (Y/N)
+10. conversion: conversion of DPM reading to grass biomass based on appropriate equation (kg/ha)
+11. observer: researcher estimating shrub cover (3 initials)
+12. scribe: person recording the data in the field (3 initials)
+13. entry: person entering the data digitally (3 initials)
+14. notes: relevant notes from data collection or entry
+
+Missing data: denoted with NA
+
+Columns:
+Start: location
+End: notes
+
+Data acquisition:
+Data forms or acquisition methods: Woody structure/grass biomass datasheet is available in the BROWSE protocol and on the BROWSE GitHub metadata repository
+
+Location of completed data forms: hard copies of Kruger datasheets are located at the Kruger Science Center and copies of eSwatini datasheets are located at the Savanna Research Center; data is digitally entered into BROWSE database
+
+Archiving:
+Archival procedures: Completed datasheets are entered into the BROWSE MySQL database hosted on University of Florida servers via the BROWSE web data portal
+

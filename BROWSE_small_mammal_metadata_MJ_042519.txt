@@ -1,0 +1,131 @@
+Data set: 
+Title: BROWSE Small Mammal Data
+Description: Data from small mammal trapping conducted in Kruger National Park and eSwatini as part of the BROWSE project monitoring terrestrial vertebrates and vegetation in the park.
+
+Dataset owner:
+BROWSE (Biodiversity Research on Wildlife & Savanna Ecosystems)
+
+Keywords:
+Small mammal
+Rodent
+Kruger National Park
+eSwatini
+Savanna
+Biodiversity
+Trapping
+
+Geographic coverage:
+Kruger National Park, South Africa
+Bounding Coordinates:
+West: 31.90840082
+East: 31.96134629
+North: -25.21326036
+South: -25.26291434
+
+Lubombo Conservancy, eSwatini
+
+Temporal coverage:
+Begin: 2013
+End: 2018
+Two sampling seasons: May—June and November—December
+
+Subproject description:
+Site description: 
+A. Southeastern Kruger National Park, South Africa; savanna; nutrient-rich basaltic soils (Nhlowa Southern Basalt Supersite); 610 mm average annual rainfall
+B. eSwatini: Lubombo Conservancy (Hlane Royal National Park, Mlawlula Nature Reserve, and Mbuluzi Game Reserve)
+
+Sampling design: Between 2013 and 2018, surveys were conducted on four 30.25 ha grids at least 1 km from each other in the Nhlowa Southern Basalt Supersite in Kruger National Park and on six grids in the Lubombo Conservancy in eSwatini (two in Hlane, two in Mlawlula Nature Reserve, and two in Mbuluzi Game Reserve). Within each grid, there are nine 50 m x 50 m plots placed 250 m apart in three rows and three columns. 
+
+After 2018, two grids in the Lubombo conservancy and five grids in Kruger are surveyed. These grids each have five plots within them. 
+In Kruger, we have implemented an experimental array of fence treetments. Three of the grids have treatments (G1, G2, G4) and two of the grids are controls (G3, G5) with no treatments. Each treatment grid has 5 plots within it: one plot is a full exclosure fence, two plots are partial exclosure fences, one plot is a “fence effect” and one plot is a control. The full exclosure fully exlcludes all land based locomotive animals. The partial fences exclude elephants and giraffes. The ‘fence effect’ plot excludes nothing but has poles with perching habitat to mimic the habitat the full and partial exclosures provide for birds of prey and the presence of poles. The sampling grids (30.25 ha) have been placed at least 1 Km apart. Grid locations were selected to represent the heterogeneity in vegetation in vegetation structure present within the sampling region. Each grid consists of 5, 50 m x 50 m plots spaced 250 m apart such that four plots are centered at the corners and one plot in the centre of the grid (Fig. 1A). Also, grids with experimental manipulation contain five plots with four plots centered at each corner and one plot in the center of the grid; here each grid has one plot designated as a full exclosure treatment (fencing prevents all large herbivores), two plots as partial exclosure treatments (fencing prevents mega-herbivores) and one plot as a mimic treatment (only fencing poles constructed to simulate treatments) and the last plot is the control.
+Methods: Since 2013, seasonal trapping surveys have been conducted from May through June and November through December. On each plot, a 20 trap grid is established to capture small mammals. To make bait you will create a mixture of rolled oats and peanut butter. 
+Traps are arranged in a 5 x 4 arrangement with 10 m spacing and labelled with a letter A, B, C, or D and a number 1, 2, 3, 4, or 5 (e.g. A1, B5, etc.). The center point of each plot on a grid is marked using a GPS unit. The center point is marked with flagging tape and 15 m to the east and west of the center point is measured (for a total of 30 m). Traps are placed at 0 m, 10 m, 20 m, and 30 m (designated A, B, C, and D, respectively). The trap that falls on the line is designated as trap number 3. Traps 1 and 2 are placed to the north, and traps 4 and 5 are placed to the south. 
+Traps are placed on available rodent paths flush with the ground and are at least partially covered with vegetation to prevent overheating. A ‘pinch’ of bait (a mixture of rolled oats and peanut butter) is placed in the back of the trap, and a piece of cotton is added during winter trapping if nighttime temperature fall below 8 °C. Vegetation is flagged near each trap in order to locate it. Trapping is conducted for four consecutive nights. Traps are checked each morning. During checks, captured animals are processed at the center of the trapping grid, processed animals are returned to the place they were trapped, and the traps are rebaited. When processing a captured rodent, it is placed in a bag, weighed (grams), and noted as a recapture or new animal. For recaptures, the tag ID is recorded along with species and sex before the animal is released. For new animals, the species is recorded, and it is ear tagged, sexed, noted as an adult or juvenile. Its hind foot, body, and tail lengths (mm) are measured, the animal is released at the point of capture, and the empty bag is weighed (grams).
+
+Project personnel: 
+Principal investigator(s):
+Dr. Robert McCleery 
+University of Florida
+Associate Professor
+Dept. of Wildlife Ecology and Conservation
+Gainesville, FL 32611 USA
+ramccleery@ufl.edu
+
+Dr. Laurence Kruger
+Organization for Tropical Studies
+laurence.kruger@tropicalstudies.org
+
+Dr. Ara Monadjem 
+University of Eswatini
+
+Dr. Robert Fletcher
+University of Florida
+robert.fletcher@ufl.edu
+
+Technicians:
+
+Students:
+
+Other:
+
+Data set status:
+Latest update: 2019-XX-XX
+
+Metadata update: 2019-04-24
+
+Data accessibility:
+Storage location and medium: UF Dropbox folder: BROWSE DATA
+
+Proprietary restrictions: Permission from BROWSE required for any use of all or portions of data set
+
+Contact person(s): 
+Maggie Jones
+218 Newins-Ziegler Hall
+University of Florida
+Gainesville, FL 32611 USA
+(304) 844-1325
+jones.m@ufl.edu
+
+Data set file:
+Identity: XX.csv
+
+Size: XX
+
+Column Headings:
+1. location: broad geographic location (K = Kruger National Park; S = eSwatini)
+2. date: date of data collection (dd-MMM-yyyy)
+3. season: season and year in which the data was collected (mjYY = May-June 20YY; ndYY = November-December 20YY)
+4. grid: the number of the grid (integer)
+5. plot: the number of the plot within the grid (integer)
+6. tag: ear tag ID number
+7. genus: Latin genus of small mammal (text)
+8. species: Latin species name of small mammal (text)
+9. trap: trap ID (letter number combination, e.g. A1)
+10. recap: whether or not the animal has previously been captured (Y = recapture, N = new animal)
+11. total_mass: mass of the bag plus small mammal (g)
+12. bag_mass: mass of the empty bag (g)
+13. sex: sex of animal (M = male; F = female)
+14. age: age of animal (A = adult; SA = subadult; J = juvenile)
+15. hindfoot: length of hindfoot (mm)
+16. body: body length (mm)
+17. tail: tail length (mm)
+18. observer: researcher handling small mammal (3 initials)
+19. scribe: person recording the data in the field (3 initials)
+20. entry: person entering the data digitally (3 initials)
+21. notes: relevant notes from data collection or entry
+
+Missing data: denoted with NA
+
+Columns:
+Start: location
+End: notes
+
+Data acquisition:
+Data forms or acquisition methods: Small mammal datasheet is available in the BROWSE protocol and on the BROWSE GitHub metadata repository
+
+Location of completed data forms: hard copies of Kruger datasheets are located at the Kruger Science Center and copies of eSwatini datasheets are located at the Savanna Research Center; data is digitally entered into BROWSE database
+
+Archiving:
+Archival procedures: Completed datasheets are entered into the BROWSE MySQL database hosted on University of Florida servers via the BROWSE web data portal
+
+

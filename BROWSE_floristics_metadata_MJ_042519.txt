@@ -1,0 +1,140 @@
+Data set: 
+Title: BROWSE Floristics Data
+Description: Data on the structure of woody plants an herbivore and fire damage in Kruger National Park and eSwatini as part of the BROWSE project monitoring terrestrial vertebrates and vegetation in the park.
+
+Dataset owner:
+BROWSE (Biodiversity Research on Wildlife & Savanna Ecosystems)
+
+Keywords:
+Floristics
+Kruger National Park
+eSwatini
+Savanna
+Biodiversity
+Elephant
+Browsing
+Woody plants
+
+Geographic coverage:
+Kruger National Park, South Africa
+Bounding Coordinates:
+West: 31.90840082
+East: 31.96134629
+North: -25.21326036
+South: -25.26291434
+
+Lubombo Conservancy, eSwatini
+
+Temporal coverage:
+Begin: 2013
+End: 2018
+Sampling from May through June
+
+Subproject description:
+Site description: 
+A. Southeastern Kruger National Park, South Africa; savanna; nutrient-rich basaltic soils (Nhlowa Southern Basalt Supersite); 610 mm average annual rainfall
+B. eSwatini: Lubombo Conservancy (Hlane Royal National Park, Mlawlula Nature Reserve, and Mbuluzi Game Reserve)
+
+Sampling design: Between 2013 and 2018, sampling was conducted on four 30.25 ha grids at least 1 km from each other in the Nhlowa Southern Basalt Supersite in Kruger National Park and on six grids in the Lubombo Conservancy in eSwatini (two in Hlane, two in Mlawlula Nature Reserve, and two in Mbuluzi Game Reserve). Within each grid, there are nine 50 m x 50 m plots placed 250 m apart in three rows and three columns. 
+
+After 2018, two grids in the Lubombo conservancy and five grids in Kruger are sampled. These grids each have five plots within them. 
+In Kruger, we have implemented an experimental array of fence treetments. Three of the grids have treatments (G1, G2, G4) and two of the grids are controls (G3, G5) with no treatments. Each treatment grid has 5 plots within it: one plot is a full exclosure fence, two plots are partial exclosure fences, one plot is a “fence effect” and one plot is a control. The full exclosure fully exlcludes all land based locomotive animals. The partial fences exclude elephants and giraffes. The ‘fence effect’ plot excludes nothing but has poles with perching habitat to mimic the habitat the full and partial exclosures provide for birds of prey and the presence of poles. The sampling grids (30.25 ha) have been placed at least 1 Km apart. Grid locations were selected to represent the heterogeneity in vegetation in vegetation structure present within the sampling region. Each grid consists of 5, 50 m x 50 m plots spaced 250 m apart such that four plots are centered at the corners and one plot in the centre of the grid (Fig. 1A). Also, grids with experimental manipulation contain five plots with four plots centered at each corner and one plot in the center of the grid; here each grid has one plot designated as a full exclosure treatment (fencing prevents all large herbivores), two plots as partial exclosure treatments (fencing prevents mega-herbivores) and one plot as a mimic treatment (only fencing poles constructed to simulate treatments) and the last plot is the control.
+Methods: Since 2013, annual surveys of all four grids have been conducted from mid- to late-May through mid- to late-June (except in 2014 and 2015). In all plots, three 50 m transects are laid out using tape measures to create A and B sides of the plot with the third transect denoting the center of the plot. On each side of the plot, researchers identify and measure all woody plants within each of the following distances from the center line: 0-2 m, 2-10 m, and 10-25 m. All individuals are identified to species, and the height (estimated using an observer height of 1.8 m as a scale), number of stems, and diameter (at breast height, measured with a DBH tape) of up to the five largest stems are measured. Percent canopy breakage is estimated by eye, and whether the damage is old or new (if the impacted area is brown/reddish color, damage is noted as recent, while grey/black color is noted as old damage) or the plant is resprouting in response to breakage is determined. For plants over 3 m tall, we also assess any damage by elephants. The percentage of bark below 3 m that has been removed is estimated by eye. Researchers also determine whether the stripping is new or old (a brown/reddish color is noted as recent, while grey/black color is noted as old stripping) and estimate the amount of bark that has regrown over the stripped area by eye. On the exposed part of the tree, evidence of wood borers and fire scarring is noted. Researchers then note whether or not the tree has been toppled, and, if so, whether the tree has resprouted. Cumulatively, the researchers determine if the majority of damage to the tree was caused by elephants. Finally, the status of the tree, alive or dead, is recorded.
+
+Project personnel: 
+Principal investigator(s):
+Dr. Robert McCleery 
+University of Florida
+Associate Professor
+Dept. of Wildlife Ecology and Conservation
+Gainesville, FL 32611 USA
+ramccleery@ufl.edu
+
+Dr. Laurence Kruger
+Organization for Tropical Studies
+laurence.kruger@tropicalstudies.org
+
+Technicians:
+
+Students:
+
+Other:
+
+Data set status:
+Latest update: 2019-04-01
+
+Metadata update: 2019-04-01
+
+Data accessibility:
+Storage location and medium: UF Dropbox folder: BROWSE DATA
+
+Proprietary restrictions: Permission from BROWSE required for any use of all or portions of data set
+
+Contact person(s): 
+Maggie Jones
+218 Newins-Ziegler Hall
+University of Florida
+Gainesville, FL 32611 USA
+(304) 844-1325
+jones.m@ufl.edu
+
+Data set file:
+Identity: kruger_floristics_CLEAN.csv
+
+Size: 525.6 KB; 3,440 observations
+
+Column Headings:
+1. date: date of data collection (yyyy-mm-dd)
+2. grid: the name of the 30.25 ha grid where the plant was found, numbered 1-5
+3. plot: the name of the 50 x 50 m plot within the grid where the plant was found, numbered 1-42
+4. zone: the section of 50 m transect in which the plant was found (1 = 0-10 m; 2 = 10-20 m; 3 = 20-30 m; 4 = 30-40 m; 5 = 40-50 m)
+5. side: the side of the plot on which the plant was found (A or B)
+6. fixed_area: the category of distance from the center line within which the plant was found (<2 = less than 2 m from center; 2-10 = greater than or equal to 2 m and less than 10 m; 10-25 = greater than or equal to 10 m and less than 25 m)
+7. height: height of the plant (to the nearest cm)
+8. num_stems: total number of woody stems (range: 0-37)
+9. stem_1_diam: diameter of the largest stem measured as close to the ground as possible (to the nearest thousandth of a cm)
+10. stem_2_diam: diameter of the second largest stem (to the nearest thousandth of a cm)
+11. stem_3_diam: diameter of the third largest stem (to the nearest thousandth of a cm)
+12. stem_4_diam: diameter of the fourth largest stem (to the nearest thousandth of a cm)
+13. stem_5_diam: diameter of the fifth largest stem (to the nearest thousandth of a cm)
+14. canopy_breakage: estimate of the percentage of the canopy that is broken (range: 0-100, to the nearest %)
+15. breakage_age: age of canopy breakage (O = old; N = new)
+16. breakage_resprout: whether or not the tree is resprouting in response to canopy breakage (Y = yes; N = no)
+17. circum: percentage of tree circumference damaged (range: 0-100, to the nearest %)
+18. add_circum: percentage of tree circumference damaged (range: 0-100, to the nearest %)
+19. bark_stripped: estimate of the percentage of bark on the tree below 3 m that has been stripped by elephants (range: 0-100, to the nearest %)
+20. strip_age: age of bark stripping (O = old; N = new)
+21. bark_regrow: estimate of the percentage of stripped bark that has regrown (range: 0-100, to the nearest %)
+22. borer: percentage of stripped bark area with evidence of wood borers (range: 0-100, to the nearest %)
+23. fire: percentage of bark with fire scarring or charring where bark is stripped (range: 0-100, to the nearest %)
+24. toppled: whether or not the tree has been toppled (Y = yes; N = no)
+25. toppled_resprout: whether or not the tree is resprouting after being toppled (Y = yes; N = no)
+26. elephant_damage: whether or not the majority of the damage to the tree is caused by elephants (Y = yes; N = no)
+27. alive: whether or not the tree is alive (Y = alive; N = dead)
+28. notes: relevant notes from data collection or entry
+29. data_collector: person collecting the data (first name)
+Note: need to find full names for all participating students to reformat as three initials
+30. scribe: person entering the data (first name)
+Note: need to find full names for all participating students to reformat as three initials
+31. total_basal_area: Note: data only available for 2013
+32. season: season and year in which the data was collected (mjYY = May-June 20YY; ndYY = November-December 20YY)
+33. location: broad geographic location (K = Kruger National Park; S = eSwatini)
+34. tag: tree tag number
+35. spcode: codes for individual’s species name
+
+PHVI = Philenoptera violacea, ACTO = Acacia tortilis, SCBI = Sclerocarya birrea, ACNI = Acacia nigrescens, DAME = Dalbergia melanoxylon, EHRI = Ehretia rigida, DICI = Dichrostachys cinereal, ORTR = Ormocarpum trichocarpum, GYSE = Gymnosporia senegalensis, FLVI = Flueggea virosa, RHGU = Rhus gueinzii, ALFO = Albizia forbesii, COIM = Combretum imberbe, LASC = Lannea schweinfurthii, COAP = Combretum apiculatum, BOSP = Bolusanthus speciosus, ACGE = Acacia gerrardii, CICO = Cissus cornifolia, GRBI = Grewia bicolor, INAR = Indigofera arrecta, COHE = Combretum hereroense, COAF = Commiphora Africana, TEPH = Terminalia phanerophlebia, ZIMU = Ziziphus mucronate, GRVI = Grewia villosa, PYHY = Pyrostria hystrix, EUDI = Euclea divinorum, GYGL = Gymnosporia glaucophyllum, GRFL = Grewia flava, DIME = Diospyros mespiliformis, GRMO = Grewia monticola, ALHA = Albizia harveyi, PHVI = Phylonoptera violaceae, ACGR = Acacia grandicornuta, SCBI = Sclerocarrya birrea, PHVI = Philenoptera violaceae, BOSP = Bolusanthantus speciose, EHRI = Ehrethia rigidia, BOFO = Boscia foetida, COSC = Commiphora schimperi, XIAM = Ximemia americana, SENI = Senegalia nigrescens, VAGE = Vachellia gerrardii, ACNI = Acacia nilotica, EHRI = Ehrethia rigida, ZIZE = Ziziphus zeyheriana, EHAM = Ehretia amoena, GRVI = Grewia villosa, VAEX = Vachellia exuvalias
+
+Missing data: denoted with NA
+
+Columns:
+Start: date
+End: spcode
+
+Data acquisition:
+Data forms or acquisition methods: Floristics datasheet is available in the BROWSE protocol and on the BROWSE GitHub metadata repository
+
+Location of completed data forms: hard copies of Kruger datasheets are located at the Kruger Science Center and copies of eSwatini datasheets are located at the Savanna Research Center; data is digitally entered into BROWSE database
+
+Archiving:
+Archival procedures: Completed datasheets are entered into the BROWSE MySQL database hosted on University of Florida servers via the BROWSE web data portal
+
